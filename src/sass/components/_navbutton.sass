@@ -1,0 +1,35 @@
+@use '../base/_variables'
+
+/*button styling*/
+.navButton
+    border: none
+    background-color: variables.$bg-secondary
+    font-family: variables.$heading-font
+    font-weight: variables.$btn-text-weight
+    font-size: 20px
+    letter-spacing: 3.64px
+    color: variables.$bg-main
+    text-transform: uppercase
+    height: 72px
+    width: 210px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-decoration: none
+    padding: 0
+    &:hover
+        background-color: variables.$accent-gold
+        img
+            background-color: variables.$bg-secondary
+
+.right-arrow
+    background-color: variables.$accent-gold
+    display: inline-flex
+    background-size: cover
+    padding: 24px
+    position: absolute
+    align-self: flex-end
+    margin-left: 50px
+
+.left-arrow
